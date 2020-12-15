@@ -97,14 +97,13 @@ line14 = "Should I get weed?"
 line15 = "Should I buy a gravel plot?"
 line16 = "Must I buy a gun?"
 line17 = "Pawefchesy, eifhHfe8?"
-line18 = "Oi, shoodai give my brother the fair crack o tha whip fer spillin tha John Dory of givin my children a \n stubbie? Mi life is becoming a dog's breakfast!"
-line19 = "Please, should I sell my farm?"
-line20 = "Should I plug the hole?"
+line18 = "Please, should I sell my farm?"
+line19 = "Should I plug the hole?"
 
 def randvoice():
     c = randint(1, 253)
     print(fg(c))
-    r = randint(1, 20)
+    r = randint(1, 19)
     if r == 1:
         print(line1)
         liney = "True, I deserve food."
@@ -175,14 +174,10 @@ def randvoice():
         linen = "GDYWUKD dagDADKhGYkud !"
     elif r == 18:
         print(line18)
-        liney = "I shood git da shotgun! Bye bye brotha!"
-        linen = "Ah, k mate."
-    elif r == 19:
-        print(line19)
         liney = "Goodbye, kids!"
         linen = "Nightmare cows are fine. Anyway, have you seen my wife?"
-    elif r == 20:
-        print(line20)
+    elif r == 19:
+        print(line19)
         liney = "I'll fuckin plug my mouth with bullets!"
         linen = "The dam can wait, I want Ice Cream!"
     i = input("(Y/N): ")
