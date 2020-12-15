@@ -175,7 +175,7 @@ def randvoice():
     elif r == 18:
         print(line18)
         liney = "Goodbye, kids!"
-        linen = "Nightmare cows are fine. Anyway, have you seen my wife?"
+        linen = "Nightmare chickens are fine. Anyway, have you seen my kids?"
     elif r == 19:
         print(line19)
         liney = "I'll fuckin plug my mouth with bullets!"
